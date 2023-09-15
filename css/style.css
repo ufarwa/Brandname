@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* all headings and para */
+h1 {
+    font-weight: bold;
+    line-height: 80px;
+    font-size: 58px;
+    padding-block: 20px;
+}
+
+h2 {
+    font-weight: bold;
+    line-height: 80px;
+    font-size: 58px;
+    padding-block: 10px;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0.10000000149011612px;
+    color: white;
+}
+
+h4 {
+    padding-bottom: 20px;
+}
+
+h5 {
+    color: #23A6F0;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.10000000149011612px;
+}
+
+h6 {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0.20000000298023224px;
+    padding-bottom: 15px;
+}
+
+.para {
+    color: var(--second-text-color, #737373);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+
+    letter-spacing: 0.2px;
+}
+
+.loginbtn {
+    padding: 15px, 25px, 15px, 25px;
+    border-radius: 5px;
+    background: #23A6F0;
+    margin-left: 50px;
+}
+
+.mainsection {
+    padding-block: 160px;
+}
+
+/*some sections have padding 160px */
+.firstsection {
+    padding-block: 112px;
+}
+
+/* and some sections have padding 112px */
+header {
+    background-image: url(/images/background555.png);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-top: 117px;
+    padding-bottom: 73px;
+}
+
+.SecAfterHeader {
+    padding-top: 70px;
+    column-gap: 30px;
+}
+.section3{
+margin-top: 112px;
+}
+.section4{
+    padding-top: 96px;
+text-align: center;
+}
+.section4a{
+    padding: 25px 25px 0px 25px;
+}
+.section4b{
+    padding: 30px;
+}
+.mycard {
+    box-shadow: 0px 13px 19px 0px rgba(0, 0, 0, 0.07);
+}
+
+.background {
+    background-color: #184c99;
+}
+
+/* background color set on navbar and header */
+
+
+.imgicon {
+    /* image icons on first section after header */
+    background: #E74040;
+    width: 60px;
+    height: 60px;
+    display: grid;
+    place-items: center;
+    margin-bottom: 20px;
+}
+
+
+.sale {
+    color: #FFFFFF;
+    background: #E74040;
+    width: 55px;
+    height: 27px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: 2px 10px 0px 10px;
+    border-radius: 3px;
+    box-shadow: 0px 2px 4px 0px #0000001A;
+}
+
+/* icons of heart cart and eye */
+.icons {
+    position: absolute;
+    top: 257px;
+    left: 49px;
+    gap: 10px;
+}
+
+.icon1 {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    background: #FFFFFF;
+   
+}
+.fa-heart,.fa-shopping-cart,.fa-eye{
+    color: black;
+    padding-top: 13px;
+    padding-left: 13px;
+}
+
+/* learn more button on second section */
+.learn {
+    padding: 10px 20px 10px 20px;
+    border-radius: 37px;
+    color: #23A6F0;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+
+}
+
+.btns {
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+    padding: 15px 40px 15px 40px;
+    background-color: #23A6F0;
+}
+
+.secndbtn {
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+    padding: 15px 40px 15px 40px;
+    border: 1px solid #23A6F0;
+}
+.input{
+display: flex;
+width: 688px;
+padding-bottom: 0px;
+justify-content: center;
+align-items: center;
+border: 1px solid #E6E6E6;
+margin-top: 80px;
+}
+.subscribebtn{
+display: flex;
+width: 117px;
+height: 58px;
+padding: 15px 22.5px;
+justify-content: center;
+align-items: center;
+flex-shrink: 0;
+background-color: #23A6F0;
+color: white;
+}
+.fab{
+   font-size: 24px;
+   color: #23A6F0;
+    
+}
+.fa-clock{
+    color: #23A6F0;
+}
+.fa-chart-line{
+    color: red;
+}
+
+.star {
+    width: 63px;
+    height: 27px;
+    padding: 5px;
+    border-radius: 20px;
+    gap: 8px;
+    background: #252B42;
+}
+.fivestar{
+    padding-bottom: 15px;
+}
+
+/* fontawsome star */
+.fill {
+    color: #FFCE31;
+    
+
+}
+
+.nofill {
+    color: transparent;
+    outline: 1px solid #FFCE31;
+    padding-bottom: 15px;
+}
+
+.green {
+    color: #40BB15;
+    font-weight: bold;
+}
+
+.mycard {
+    border: 0px;
+}
+
+.fifth_section-Image {
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+}
+
+input {
+    outline: none;
+    border: 0px;
+    background: transparent;
+    height: 45px;
+    width: 76%;
+}
+
+.footer {
+    padding-block: 80px;
+}
+
+.lowerfooter {
+    padding-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.twoSections {
+    background: #252B42;
+}
+.redline {
+    width: 87px;
+    height: 5px;
+    background-color: #E74040;
+}
+
+a {
+    /* color: var(--light-text-color, #FFF); */
+    font-size: 14px;
+    line-height: 24px;
+    padding-bottom: 10px;
+    letter-spacing: 0.2px;
+    font-weight: bold;
+    text-decoration: none;
+    color:#23A6F0 ;
+}
+.links> a{
+color: white;
+}
