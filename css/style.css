@@ -81,7 +81,7 @@ header {
     background-size: 100%;
     padding-top: 117px;
     padding-bottom: 73px;
-}
+}  
 
 .SecAfterHeader {
     padding-top: 70px;
@@ -136,10 +136,13 @@ text-align: center;
 }
 
 /* icons of heart cart and eye */
+.card-head{
+    position: relative;
+}
 .icons {
     position: absolute;
-    top: 257px;
-    left: 49px;
+    bottom: 45px;
+    left: 62px;
     gap: 10px;
 }
 
@@ -188,7 +191,7 @@ text-align: center;
 }
 .input{
 display: flex;
-width: 688px;
+/* width: 688px; */
 padding-bottom: 0px;
 justify-content: center;
 align-items: center;
@@ -205,6 +208,7 @@ align-items: center;
 flex-shrink: 0;
 background-color: #23A6F0;
 color: white;
+margin-left: 60px;
 }
 .fab{
    font-size: 24px;
@@ -298,4 +302,33 @@ a {
 }
 .links> a{
 color: white;
+}
+
+
+/* mediaquery practice */
+
+@media only screen and (max-width: 550px){
+    /* [class*="col"] { 
+        text-align: center;  
+      } */
+ .hero >img,.imge>img{
+    width: 300px;
+}
+.social{
+    margin-left: 30px;
+}
+.footerrow{
+gap: 20px;
+float: none;
+width: 50%;
+margin: 0px auto;
+}
+.twobtns{
+    gap: 10px;
+}
+.twobtns > button{
+    width: auto;
+    font-size: 10px;   
+ }
+ 
 }
