@@ -80,7 +80,7 @@ header {
     background-repeat: no-repeat;
     background-size: 100%;
     padding-top: 117px;
-    padding-bottom: 73px;
+    padding-bottom: 85px;
 }  
 
 .SecAfterHeader {
@@ -141,10 +141,10 @@ text-align: center;
 }
 .icons {
     position: absolute;
-    bottom: 45px;
-    left: 62px;
-    gap: 10px;
-}
+    bottom: 11.5%;
+    left: 20.75%;
+    gap: 10px; /* Gap remains in pixels */
+}    
 
 .icon1 {
     width: 40px;
@@ -208,7 +208,7 @@ align-items: center;
 flex-shrink: 0;
 background-color: #23A6F0;
 color: white;
-margin-left: 60px;
+margin-left: 89px;
 }
 .fab{
    font-size: 24px;
@@ -280,7 +280,10 @@ input {
     flex-direction: column;
     align-items: center;
 }
-
+.lowericons div{
+    flex:1;
+    
+}
 .twoSections {
     background: #252B42;
 }
@@ -304,31 +307,118 @@ a {
 color: white;
 }
 
-
 /* mediaquery practice */
 
-@media only screen and (max-width: 550px){
+@media only screen and (max-width: 1199px){
     /* [class*="col"] { 
         text-align: center;  
       } */
  .hero >img,.imge>img{
     width: 300px;
 }
-.social{
-    margin-left: 30px;
+.social a{
+    margin: auto;
 }
-.footerrow{
+/* .footerrow{
 gap: 20px;
 float: none;
-width: 50%;
+text-align: center;
 margin: 0px auto;
-}
+} */
 .twobtns{
     gap: 10px;
+    display:flex;
+    justify-content: center;
 }
 .twobtns > button{
-    width: auto;
-    font-size: 10px;   
+    /* width: auto; */
+    font-size: 12px;   
  }
- 
+
+ h1 {
+    font-weight: bold;
+    line-height: 50px;
+    font-size: 48px;
+    padding-block: 15px;
+}
+
+h2 {
+    font-weight: bold;
+    line-height: 50px;
+    font-size: 48px;
+    padding-block: 7px;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: 550;
+    line-height: 32px;
+    letter-spacing: 0.10000000149011612px;
+    color: white;
+}
+
+h4 {
+    padding-bottom: 13px;
+}
+
+h5 {
+    color: #23A6F0;
+    font-size: 11px;
+    font-weight: 550;
+    line-height: 14px;
+    letter-spacing: 0.10000000149011612px;
+}
+
+h6 {
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 13px;
+    letter-spacing: 0.20000000298023224px;
+    padding-bottom: 15px;
+}
+
+.para {
+    color:  #120202;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 15px;
+    letter-spacing: 0.2px;
+}
+.mainsection {
+    padding-block: 50px;
+}
+
+/*some sections have padding 160px */
+.firstsection {
+    padding-block: 35px;
+}
+header{
+    padding-top: 46px;
+}
+
+.learn{
+    width: 100%;
+}
+ .redline{
+    margin: auto;
+ }
+.headerbtns{
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    /* text-align: start; */
+    align-items: center;
+
+}
+.headerbtns button{
+    width: auto;
+}
+nav ul li{
+    border-bottom: 2px solid white;
+}
+.loginbtn {
+    margin-left: 0px;
+}
+
 }
